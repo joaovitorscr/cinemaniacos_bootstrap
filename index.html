@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Cinemaniacos</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="customheader">
+        <div class="container">
+            <h1 class="navbar-brand">Cinemaniacos</h1>
+            <button data-bs-toggle="collapse" data-bs-target="#menu-nav" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <i class="bi bi-house-door"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#emcartaz">Em cartaz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#salas">Conheça as salas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#customheader" data-bs-smooth-scroll="true">
+        <section id="home">
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="w-100" src="./images/sala.jpg">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="./images/pessoascinema.jpg">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="./images/salacinema.jpg">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+        <section id="emcartaz" class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-center mb-5">Em cartaz</h1>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-bg-dark">
+                            <img class="card-img-top" src="./images/cards/avatar.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Avatar: The Way of Water</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nemo provident nam tempora asperiores doloremque sapiente architecto error.</p>
+                                <div class="d-grid d-md-flex justify-content-md-center">
+                                    <a href="#" class="btn btn-secondary fw-bold">Ver sala disponível</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-bg-dark">
+                            <img class="card-img-top" src="./images/cards/antman.webp">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Ant-man and Wasp: QUANTUMANIA</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nemo provident nam tempora asperiores doloremque sapiente architecto error.</p>
+                                <div class="d-grid d-md-flex justify-content-md-center">
+                                    <a href="#" class="btn btn-secondary fw-bold">Ver sala disponível</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-bg-dark">
+                            <img class="card-img-top" src="./images/cards/aladin.webp">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Aladin</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eius itaque laboriosam tempora labore esse, vero magni, iusto consequatur</p>
+                                <div class="d-grid d-md-flex justify-content-md-center">
+                                    <a href="#" class="btn btn-secondary fw-bold">Ver sala disponível</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-bg-dark">
+                            <img class="card-img-top" src="./images/cards/lastjedi.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Star Wars: The Last Jedi</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nemo provident nam tempora asperiores doloremque sapiente architecto error.</p>
+                                <div class="d-grid d-md-flex justify-content-md-center">
+                                    <a href="#" class="btn btn-secondary fw-bold">Ver sala disponível</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-bg-dark">
+                            <img class="card-img-top" src="./images/cards/blackpanther.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Black Panther: Wakanda Forever</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nemo provident nam tempora asperiores doloremque sapiente architecto error.</p>
+                                <div class="d-grid d-md-flex justify-content-md-center">
+                                    <a href="#" class="btn btn-secondary fw-bold">Ver sala disponível</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-bg-dark">
+                            <img class="card-img-top" src="./images/cards/blackwidow.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Black Widow</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eius itaque laboriosam tempora labore esse, vero magni, iusto consequatur</p>
+                                <div class="d-grid d-md-flex justify-content-md-center">
+                                    <a href="#" class="btn btn-secondary fw-bold">Ver sala disponível</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="salas" class="mt-5 pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h1 class="mb-5 text-center">Conheça nossas salas</h1>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2 mb-4">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#imax" class="fw-bold text-start nav-link active">IMAX</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#3d" class="fw-bold text-start nav-link">3D</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#2d" class="fw-bold text-start nav-link">2D</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="imax">
+                                <div class="row">
+                                    <div class="col-md-7 mb-4">
+                                        <img class="d-block w-100" src="./images/tab/imax.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h1 class="text-center">IMAX</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum laboriosam quaerat consectetur ratione sit atque sed odio? Maxime a voluptatem ex fugit tempora blanditiis temporibus modi? Rerum, labore laborum!
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum laboriosam quaerat consectetur ratione sit atque sed odio? Maxime a voluptatem ex fugit tempora blanditiis temporibus modi? Rerum, labore laborum!
+                                        </p>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <a href="#" class="btn btn-secondary">Saiba mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="3d">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <img class="d-block w-100" src="./images/tab/3d.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h1 class="text-center">3D</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum laboriosam quaerat consectetur ratione sit atque sed odio? Maxime a voluptatem ex fugit tempora blanditiis temporibus modi? Rerum, labore laborum!
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum laboriosam quaerat consectetur ratione sit atque sed odio? Maxime a voluptatem ex fugit tempora blanditiis temporibus modi? Rerum, labore laborum!
+                                        </p>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <a href="#" class="btn btn-secondary">Saiba mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="2d">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <img class="d-block w-100" src="./images/tab/2d.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h1 class="text-center">2D</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum laboriosam quaerat consectetur ratione sit atque sed odio? Maxime a voluptatem ex fugit tempora blanditiis temporibus modi? Rerum, labore laborum!
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum laboriosam quaerat consectetur ratione sit atque sed odio? Maxime a voluptatem ex fugit tempora blanditiis temporibus modi? Rerum, labore laborum!
+                                        </p>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                            <a href="#" class="btn btn-secondary">Saiba mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="mt-5">
+            <div class="container">
+                <div class="row mb-5">
+                    <h1 class="text-center mb-5">Contato</h1>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <form>
+                                <div class="mb-2">
+                                    <label for="nome" class="form-label">Seu nome:</label>
+                                    <input type="text" id="nome" name="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="email" class="form-label">Seu email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="telefone" class="form-label">Seu telefone:</label>
+                                    <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="(00) 00000-0000" required>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="mensagem" class="form-label">Sua mensagem:</label>
+                                    <textarea id="mensagem" name="mensagem" class="form-control caixa-texto"></textarea>
+                                </div>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-5 mt-5" id="sociais">
+                            <div class="row">
+                                <h3 class="fs-5">Redes sociais</h3>
+                                <ul class="redes">
+                                    <li class="fs-2">
+                                        <a href="#">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-2">
+                                        <a href="#">
+                                            <i class="bi bi-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-2">
+                                        <a href="#">
+                                            <i class="bi bi-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-2">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <h3 class="fs-5">Endereço</h3>
+                                <p>Rua boostrap, bairro jquery</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="./lib/jquery.validate.pt-br.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#telefone').mask('(00) 00000-0000')
+        });
+
+            $('form').validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+
+                    email: {
+                        required: true,
+                        email: true
+                    },
+
+                    mensagem: {
+                        required: true
+                    },
+
+                    telefone: {
+                        required: true
+                    }
+                }
+            })
+    </script>
+</body>
+</html>

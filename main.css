@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@700&family=Rubik:wght@700&display=swap');
+
+#customheader {
+    background-color: rgb(66, 65, 65);
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: rgb(92, 91, 91);
+}
+
+#customheader .nav-pills .nav-link.active {
+    background-color: rgb(92, 91, 91);
+}
+
+#salas {
+    background-color: rgb(100, 99, 99);
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+    font-size: 3vh;
+}
+
+.navbar ul li a {
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    color: rgb(100, 100, 100);
+}
+
+.caixa-texto {
+    resize: none;
+    height: 150px;
+}
+
+.redes li {
+    list-style: none;
+    display: inline;
+}
+
+.redes li a {
+    text-decoration: none;
+    color: #909ca8;
+}
+
+h1, 
+p,
+label,
+h3 {
+    color: #fff;
+}
+
+h1,
+h5,
+h3,
+label,
+button {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+aside nav button.nav-link{
+    color: #fff;
+}
+
+aside .nav-pills .nav-link.active {
+    background-color: rgb(80, 79, 79);
+}
+
+aside .nav-pills {
+    background-color: rgb(90, 89, 89);
+    border-radius: var(--bs-nav-pills-border-radius);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #contato #sociais {
+        text-align: center;
+    }
+
+    #contato #sociais ul li a {
+        padding-right: 3px;
+    }
+
+    #contato form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
