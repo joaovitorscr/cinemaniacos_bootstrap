@@ -85,6 +85,7 @@ aside .nav-pills {
     }
 
     #contato #sociais {
+        margin: auto 14px;
         text-align: center;
     }
 
@@ -93,8 +94,21 @@ aside .nav-pills {
     }
 
     #contato form {
+        margin: auto 14px;
+        width: 100%;
+    }
+
+    .fullwidth {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .alinhamento {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
