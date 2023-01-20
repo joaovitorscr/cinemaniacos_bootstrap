@@ -7,7 +7,7 @@
   
 ## Install:
   ```
-  $ git clone https://github.com/joaovitorscr/clone_disneyplus.git
+  $ git clone https://github.com/joaovitorscr/cinemaniacos_bootstrap.git
   ```
 
 ## How to deploy:
